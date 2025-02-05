@@ -1,0 +1,7 @@
+""" Константы. """
+
+MAX_PRICE = 1000000
+
+MIN_PRICE = 1
+
+TITLE_MAX_LENGHT = 256
