@@ -1,0 +1,15 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'PlayfairDisplaySC';
+
+}
+
+.logo-header {
+    height: 50px;
+    width: auto;
+}

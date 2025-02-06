@@ -1,0 +1,16 @@
+.footer  {
+    height: 600px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.logo-footer {
+    height: 80px;
+    width: auto;
+}
+
+@media (max-width: 767.98px) {
+    .logo-footer {
+        height: 40px;
+    }
+}

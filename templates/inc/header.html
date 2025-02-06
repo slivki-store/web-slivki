@@ -1,55 +1,31 @@
+{% load static %}
 <header class="header">
-    <div class="row align-items-center h-100 w-100 m-0 p-2">
-
-        <div class="col-3 col-md-4 text-center">
-
-            <div class="header-link d-md-none">
-                <a href="#">
-                    <img src="/static/img/burger.png" class="header-icon" alt="icon-search">
-                </a>
-            </div>
-
-            <div class="header-link d-md-none">
-                <a href="#">
-                    <img src="/static/img/search.png" class="header-icon" alt="icon-search">
-                </a>
-            </div>
-            
+    <div class="row align-items-center h-100">
+        <div class="col-4 text-center">
+            <a href="#" class="m-15">КАТАЛОГ</a>
+            <a href="#" class="m-15">О НАС</a>
+            <a href="#" class="m-15">FAQ</a>
         </div>
-        
-        <div class="col-6 col-md-4 text-center">
-            <a href="#">
-                <img src="/static/img/logo_main.png" class="header-logo" alt="Логотип SlivkiStore">
+
+        <div class="col-4 text-center">
+            <a href="/">
+                <img src="{% static 'images/logo-header.png' %}" class="logo-header" alt="logo">
             </a>
         </div>
 
-        <div class="col-3 col-md-4 text-center d-flex">
-
-            <div class="d-none d-md-inline-block header-link">
-                <a href="#">
-                    <img src="/static/img/search.png" class="header-icon" alt="icon-search">
-                </a>
-            </div>
-
-            <div class="header-link d-none d-md-inline-block">
-                <a href="#">
-                    <img src="/static/img/favorite.png" class="header-icon" alt="icon-favorite">
-                </a>
-            </div>
-
-            <div class="header-link">
-                <a href="#">
-                    <img src="/static/img/shop.png" class="header-icon" alt="icon-shop">
-                </a>
-            </div>
-
-            <div class="header-link me-0">
-                <a href="#">
-                    <img src="/static/img/user-icon.png" class="header-icon" alt="icon-user">
-                </a>
-            </div>
-
+        <div class="col-4 text-center">
+            <a href="/">
+                <img src="{% static 'icons/search.png' %}" class="icon m-15" alt="search">
+            </a>
+            <a href="/">
+                <img src="{% static 'icons/profile.png' %}" class="icon m-15" alt="profile">
+            </a>
+            <a href="/">
+                <img src="{% static 'icons/favorite.png' %}" class="icon m-15" alt="favorite">
+            </a>
+            <a href="/">
+                <img src="{% static 'icons/shop.png' %}" class="icon m-15" alt="shop">
+            </a>
         </div>
-
     </div>
 </header>
